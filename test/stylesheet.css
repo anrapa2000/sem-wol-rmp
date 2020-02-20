@@ -3,7 +3,6 @@ header {
   height: 105px;
   width: 100%;
   background-color: rgba(230, 0, 0, 0.9);
-  
   position:fixed;
   top:0;
   z-index:10;
@@ -230,21 +229,19 @@ header {
 }
 
 footer {
-
+  background-color: red;
+  color: #fff;
   height: 120px;
   padding: 40px 40px;
   font-weight:bold;
   
 }
-
 .footer-logo {
   font-size: 32px;
   float: left;
 }
-
 .footer-list{
   float:right;
-  
 }
 
 .footer-list a{
