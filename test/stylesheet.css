@@ -1,0 +1,256 @@
+
+header {
+  height: 105px;
+  width: 100%;
+  background-color: rgba(230, 0, 0, 0.9);
+  
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width: 75px;
+  margin-top: 10px;
+  margin-left:15px;
+}
+
+.logo-text{
+  float:right;
+  margin-top:15px;
+  margin-left:-80px;
+  color:white;
+  line-height:130px;
+  font-size:10px;
+  
+}
+.header-left {
+  float: left;
+}
+::placeholder{
+  color:black;
+  opacity:1;
+}
+.header-right1 {
+  float: right;
+  padding:40px;
+  font-size:20px;
+  background-color: rgba(255, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.header-right1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right1 a {
+  line-height: 30px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+}
+.header-right2 {
+  float: right;
+  padding:40px;
+  font-size:20px;
+  background-color: rgba(255, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.header-right2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right2 a {
+  line-height: 30px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+}
+.header-right3 {
+  float: right;
+  padding:40px;
+  font-size:20px;
+  background-color: rgba(255, 0, 0, 0);
+  transition: all 0.5s;
+}
+
+.header-right3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right3 a {
+  line-height: 30px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+}
+
+
+
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://res.cloudinary.com/jerrick/image/upload/fl_progressive,q_auto,w_1024/ukcgwnavdb3ckrzmfqlf.jpg);
+  background-size: cover;
+  opacity:1;
+  color: white;
+  text-align: center;
+  margin-top:100px;
+}
+
+.top-wrapper h2 {
+  opacity: 1;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color:black;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+  font-size:20px;
+  color:black;
+  font-weight:bold;
+}
+.dont p{
+  font-size: 40px;
+  font-weight:bold;
+}
+.dont{
+  margin-top:100px;
+}
+.btn-wrapper {
+  margin: 25px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: red;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight:bold ;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: red;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+
+  height: 120px;
+  padding: 40px 40px;
+  font-weight:bold;
+  
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-list{
+  float:right;
+  
+}
+
+.footer-list a{
+  padding-bottom:20px;
+  list-style:none;
+  color: white;
+}
+
+
